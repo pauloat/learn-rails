@@ -15,7 +15,7 @@ gem 'spring',        group: :development
 
 #learn-rails
 gem 'activerecord-tableless' # Rails without db
-gem 'compass-rails'#, '~> 2.0.alpha.0' # Supp from Zurb found
+gem 'compass-rails' # Supp from Zurb found
 gem 'figaro'
 gem 'gibbon' # MailChip API
 gem 'google_drive' # Google Drive API for spreadsheets data storage
