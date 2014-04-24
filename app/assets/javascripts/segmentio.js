@@ -57,3 +57,12 @@ window.analytics.load('oa5hr32gdr');
 // move this call however you'd like.
 /*  */
 window.analytics.page();
+
+// accommodate Turbolinks
+// track page views and form submissions
+$(document).on('ready page:load', function() {
+  console.log('page loaded');
+  analytics.page();
+  analytics.trackForm($('#new_visitor'), 'Signed Up');
+  analytics.trackForm($('#new_contact'), 'Contact Request');
+})
