@@ -29,6 +29,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    analytics-ruby (1.1.0)
     arel (5.0.1.20140414130214)
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -178,6 +179,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-tableless
+  analytics-ruby (~> 1.0)
   better_errors
   coffee-rails (~> 4.0.0)
   compass-rails
