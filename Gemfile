@@ -27,3 +27,8 @@ group :development do # Can specify groups of :development, :test or :production
   gem 'quiet_assets' # Suppresses distracting messages in the log
   gem 'rails_layout' # Files for application layout
 end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+  gem 'thin'
+end
